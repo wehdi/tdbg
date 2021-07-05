@@ -1,0 +1,22 @@
+/*.container {
+  display: flex;
+  margin-top: 10px;
+
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}*/
+body{
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: white;
+}
+.app{
+  margin-top: 75px;
+}

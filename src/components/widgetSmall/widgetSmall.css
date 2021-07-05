@@ -1,0 +1,48 @@
+/*.widgetSmall {
+  flex: 1;
+  background-color:white;
+  -webkit-box-shadow: -10px 9px 10px -4px rgba(0, 0, 0, 0.6);
+  box-shadow: -10px 9px 10px -4px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin-right: 20px;
+}
+.widgetSmallTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+.widgetSmallList {
+  margin: 10;
+  padding: 0;
+  list-style: none;
+}
+.widgetSmallItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.widgetSmallCaisse {
+  display: flex;
+  flex-direction: column;
+}
+.widgetSmallName {
+  font-weight: 600;
+}
+.widgetSmallMontant{
+    font-weight: 400;
+}
+.widgetSmallButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: rgb(52, 55, 212);
+    color: honeydew;
+    cursor: pointer;
+
+}
+.widgetSmallIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}*/

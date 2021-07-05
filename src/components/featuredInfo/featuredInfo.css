@@ -1,0 +1,52 @@
+/*.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.featuredItem {
+  flex: 1;
+  margin: 0px, 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: -10px 9px 10px -4px rgba(0, 0, 0, 0.6);
+  box-shadow: -10px 9px 10px -4px rgba(0, 0, 0, 0.6);
+}
+.featuredTitle{
+    font-style: 20px;
+}
+.featuredEcheanceContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.featuredEcheance {
+    font-size: 23px;
+    font-weight: 600;
+}
+.featuredEcheanceRate {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.featuredIcon {
+    font-size: 25px;
+    margin-left: 5px;
+    color: red;
+}
+.featuredIcon.negative{
+    color:green;
+}
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
+*/
+.featuredInfiTitle{
+    font-size: 23px !important;
+    
+}
+
+.card-body{
+    cursor: pointer;
+}

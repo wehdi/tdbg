@@ -1,0 +1,100 @@
+/*.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: #41729F;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.topRight{
+display: flex;
+align-items: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+}
+.topIconBag{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+
+}
+.topAvatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}*/
+/*laaa*/
+/*
+.topbar {
+  height: 50px;
+  z-index: 999;
+}
+.topbar a {
+  color: white !important;
+  direction: none;
+}
+.topIconBag {
+  width: 18px;
+  height: 18px;
+  background-color: crimson;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.topAvatar {
+  border-radius: 50%;
+  cursor: pointer;
+}*/
+
+.topbar {
+  height: 70px;
+  background-color: #4CB3AF;
+  z-index: 999;
+}
+
+/*CENTER THE LOGO*/
+/*
+.topbarLogo{
+  position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+/*display: block;//
+}*/
+.btn:hover {
+  background-color: #BAB06A !important;
+}
+svg:hover {
+  fill: #BAB06A;
+    opacity: 1
+}
