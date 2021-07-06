@@ -7,10 +7,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function echeance() {
   return (
-    <Container className="echeance">
+    <Container className="echeance shadow">
       <Row>
         <Col sm={12}>
-          <div style={{ height: 400, width: "100%" }}>
+          <h2 className="text-center font-weight-bold">Echeance :</h2>
+          <div style={{ height: 400, width: "110%" }}>
             <DataGrid
               rows={echeanceRows}
               columns={echeanceColumns}

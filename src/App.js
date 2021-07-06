@@ -1,6 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/pages/home/Home";
+import Instance from "./components/pages/instance/Instance";
 import EcheanceDetails from "./components/pages/echeanceDetails/EcheanceDetails";
 import Finance from "./components/pages/finance/Finance";
 import Echeance from "./components/pages/echeance/Echeance";
@@ -40,6 +41,7 @@ function App() {
               <Route path="/echeanceDetails">
                 <EcheanceDetails />
               </Route>
+              <Route path="/instances" component={Instance} />
               <Route path="*" component={NotFound} />
             </Switch>
           </Col>

@@ -51,7 +51,7 @@ export default function featuredInfo() {
               3 214 265 123.30 DA
               <TrendingUp className="text-danger ml-1" />
             </Card.Text>
-            <footer className="blockquote-footer">mise a jour 01/2021</footer>
+            <footer className="blockquote-footer">Au niveau national</footer>
           </Card.Body>
         </Card>
       </Col>
@@ -59,13 +59,13 @@ export default function featuredInfo() {
         <Card className="shadow p-3 mb-5 bg-body rounde" border="primary">
           <Card.Body>
             <Card.Title>
-              Montant echeance :
+              Nombre de retraités :
             </Card.Title>
-            <Card.Text className="font-weight-bold h5">
-              3 214 265 123.30 DA
+            <Card.Text className="font-weight-bold h5 text-center">
+              3 004 127
               <TrendingUp className="text-danger ml-1" />
             </Card.Text>
-            <footer className="blockquote-footer">mise a jour 01/2021</footer>
+            <footer className="blockquote-footer">Au niveau national</footer>
           </Card.Body>
         </Card>
       </Col>
@@ -73,13 +73,13 @@ export default function featuredInfo() {
         <Card className="shadow p-3 mb-5 bg-body rounde" border="primary">
           <Card.Body>
             <Card.Title>
-              Montant echeance :
+              Montant trop-percu :
             </Card.Title>
             <Card.Text className="font-weight-bold h5">
-              3 214 265 123.30 DA
+              39 214 265 123.3 DA
               <TrendingDown className="text-success ml-1" />
             </Card.Text>
-            <footer className="blockquote-footer">mise a jour 01/2021</footer>
+            <footer className="blockquote-footer">Au niveau national</footer>
           </Card.Body>
         </Card>
       </Col>
