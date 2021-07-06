@@ -6,7 +6,7 @@ import EcheanceChart from "../../echeanceChart/EcheanceChart";
 import WidgetSmall from "../../widgetSmall/WidgetSmall";
 import WidgetLg from "../../widgetLg/WidgetLg";
 import RightWidget from "../../rightWidget/RightWidget";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Card } from "react-bootstrap";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         </Col>
       </Row>
       <Row>
-        <Col sm={8} className=" ">
+        <Col sm={12} className=" ">
           <EcheanceChart
             data={dataEcheance}
             title="Echeance"
@@ -25,17 +25,15 @@ export default function Home() {
             grid
           />
         </Col>
+      </Row>
+      <Row>
         <Col sm={4}>
           <WidgetSmall />
         </Col>
+        <Col sm={6} className="mt-5">
+          <WidgetLg />
+        </Col>
       </Row>
-     
     </Container>
   );
-  /*
-  <Col sm={4}>
-          <WidgetSmall />
-        </Col>
-  */
-  // <WidgetLg />
 }

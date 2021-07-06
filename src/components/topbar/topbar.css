@@ -79,7 +79,6 @@ align-items: center;
 
 .topbar {
   height: 70px;
-  background-color: #4CB3AF;
   z-index: 999;
 }
 
@@ -89,12 +88,12 @@ align-items: center;
   position: absolute;
     left: 50%;
     margin-left: -50px !important;  /* 50% of your logo width */
-/*display: block;//
-}*/
-.btn:hover {
-  background-color: #BAB06A !important;
+/*display: block;//*/
+/*}*/
+.topbar .btn:hover {
+  background-color: rgba(3, 3, 3, 0.712) !important;
 }
 svg:hover {
-  fill: #BAB06A;
-    opacity: 1
+  fill: black;
+  opacity: 0.5;
 }

@@ -21,15 +21,9 @@ export default function Topbar() {
   );
   return (
     <Nav>
-      <Navbar fixed="top" className="topbar">
+      <Navbar fixed="top" className="topbar bg-primary">
         <Navbar.Brand className=" topbarLogo text-light">
-          <img
-            src={process.env.PUBLIC_URL + "/CNR-LOGO.png"}
-            width="150"
-            height="90"
-            alt="CNR Avatar"
-            className="rounded"
-          />
+         <h1>TDBG - CNR</h1>
         </Navbar.Brand>
 
         <Nav className="ml-auto ">

@@ -8,7 +8,7 @@ export default function PieChartLocal({ title, data }) {
         data={data}
         options={{
           legend: {
-            display: false,
+            display: true,
             position: "right",
           },
         }}

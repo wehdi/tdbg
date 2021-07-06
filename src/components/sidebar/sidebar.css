@@ -56,11 +56,11 @@
 
 .nav-item a.active,
 .nav-item a:hover {
-  color: #41524F !important;
+  color: black !important;
   /*background-color:#dfceba;;*/
   text-decoration: none;
-  border-radius: 5%;
-  border-bottom: 4px solid  #41524F;
+  border-radius: 50%;
+  border-bottom: 2px solid  black;
 
 }
 

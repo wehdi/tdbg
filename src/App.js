@@ -18,7 +18,7 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-    <HashRouter basename="/home">
+    <HashRouter basename="/">
       <Container className="app">
         <Row>
           <Topbar />
